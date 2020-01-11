@@ -4,6 +4,14 @@ Files and uses
 model.py - Txt file that has the model . One can train the model with the dataset mentioned to get an accuracy of 90.4%. 
 Model is a tinny version of VGG16 that is tuned to get the best possible accuracy.
 
+Augmentation.py - Randomly augments images to equalise the number of images in each category.
+
+To do:
+- Run the augmentation.py to generate augmented images
+- Merge the augmented images into the original image folders
+- Train the model.py with the data set
+
+
 
 Contributions are welcome!.
 
