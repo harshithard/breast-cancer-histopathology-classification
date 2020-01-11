@@ -1,11 +1,3 @@
-Samples
-=======
-* Samples are generated from breast tissue biopsy slides,
-stained with hematoxylin and eosin (HE).
-* prepared for histological study and labelled by pathologists of the P&D Lab
-* breast tumor specimens assessed by Immunohistochemistry (IHC)
-* Core Needle Biopsy (CNB) and Surgical Open Biopsy (SOB)
-* section of ~3µm thickness
 
 Image acquisition
 =================
