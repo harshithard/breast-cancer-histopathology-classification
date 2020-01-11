@@ -2,8 +2,10 @@ Dataset -  BreakHis
 
 Files and uses
 model.py - Txt file that has the model . One can train the model with the dataset mentioned to get an accuracy of 90.4%. 
+Model is a tinny version of VGG16 that is tuned to get the best possible accuracy.
 
 
+Contributions are welcome!.
 
 Format of image filename
 ========================
