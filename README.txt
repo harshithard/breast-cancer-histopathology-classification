@@ -1,11 +1,8 @@
+Dataset -  BreakHis
 
-Image acquisition
-=================
-* Olympus BX-50 system microscope with a relay lens with magnification of 3.3× coupled to a Samsung digital color camera SCC-131AN
-* magnification 40×, 100×, 200×, and 400× (objective lens 4×, 10×, 20×, and 40× with ocular lens 10×)
-* camera pixel size 6.5 µm
-* raw images without normalization nor color color standardization
-* resulting images saved in 3-channel RGB, 8-bit depth in each channel, PNG format
+Files and uses
+model.py - Txt file that has the model . One can train the model with the dataset mentioned to get an accuracy of 90.4%. 
+
 
 
 Format of image filename
