@@ -1,0 +1,38 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div id="backgroundstyling" class="row">
+    <div id="iyxi" class="cell">
+    </div>
+    <div class="cell" id="columnstyling">
+        <div class="row" id="thebehindboxstyling">
+            <div class="cell">
+                <h1 id="thebigfontstyling">
+                    <br>BREAST CANCER DETECTION
+                    <br>
+                </h1>
+                <div id="thesmallfontstyling">DETECTION MADE EASY...
+                    <br>
+                </div>
+                <div id="thesmallfontstyling">Upload your histopathology image and get your results within seconds!!!
+                    <br>
+                </div>
+                    <!--<p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
+                            onchange="getFilePath(event)" style="display: none;"></p>
+                    <p id="buttonstyling" class="text-center"><button type="button" class="btn btn-success"><label for="file">Upload
+                                Image</label></button></p>
+                    <p><img id="output" width="500" /></p>
+                    <input type="submit" value="Submit">-->
+                    <form action="/" method="post" enctype="multipart/form-data">
+                        <input type="file"  name="image" id="image">
+                        <input type="submit" id="submit"  value="Submit">
+                </form>
+                
+                <script>
+                    var loadFile = function (event) {
+                        var image = document.getElementById('output');
+                        image.src = URL.createObjectURL(event.target.files[0]);
+                        //window.alert(image.src)
+
+                    };
+                </script>
+{% endblock %}

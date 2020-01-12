@@ -1,0 +1,40 @@
+{% extends 'layout.html' %}
+{% block body %}
+<div id="backgroundstyling" class="row">
+    <div id="iyxi" class="cell">
+    </div>
+    <div class="cell" id="columnstyling">
+        <div class="row" id="thebehindboxstyling">
+            <div class="cell">
+                <h1 id="thebigfontstyling">
+                    <br>RESULT:
+                    <br>
+                </h1>
+                <div id="thesmallfontstyling">The class to which the image belongs is..
+                    <br>
+                </div>
+                <h1 id="thesmallfontstyling">
+                    <br> The type of tumor in the histopathological image is</h1>
+                    <br>
+                    <h1 id="thebigfontstyling">{{temp}}</h1>
+                    <br>
+                </h1>
+                    <!--<p><input type="file" accept="image/*" name="image" id="file" onchange="loadFile(event)"
+                            onchange="getFilePath(event)" style="display: none;"></p>
+                    <p id="buttonstyling" class="text-center"><button type="button" class="btn btn-success"><label for="file">Upload
+                                Image</label></button></p>
+                    <p><img id="output" width="500" /></p>
+                    <input type="submit" value="Submit">-->
+                    
+                
+                <script>
+                    var loadFile = function (event) {
+                        var image = document.getElementById('output');
+                        image.src = URL.createObjectURL(event.target.files[0]);
+                        //window.alert(image.src)
+
+                    };
+                </script>
+
+
+{% endblock %}
