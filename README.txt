@@ -14,7 +14,7 @@ To do:
 - Run the augmentation.py to generate augmented images
 - Merge the augmented images into the original image folders
 - Train the model.py with the data set
-- Run the app.py
+- Run the app.py file
 - Run the local host to find the prediction of an uploaded image
 
 
